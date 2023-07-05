@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    
+    <!--Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="/main.css">
+    <!--Scripts -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!--Font Awesome -->
+    <script src="https://kit.fontawesome.com/1c09c1056a.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <div id="nav-container"class="container">
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <a href="#" class="navbar-brand">
+                    <h1>Los Lambetas</h1>
+                </a>
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggle-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a href="./index.html" class="nav-item nav-link" id="home-menu">Home</a>
+                        <a href="#about-area" class="nav-item nav-link" id="about-menu">Sobre</a>
+                        <a href="#cards-area" class="nav-item nav-link" id="about-menu">Cards</a>
+                        
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-fluid">
+            <!-- Carousel -->
+            <div id="mainSlider" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+                    <li data-target="#mainSlider" data-slide-to="1" ></li>
+                    <li data-target="#mainSlider" data-slide-to="2" ></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div data-bs-interval="1000" class="carousel-item active">
+                        <img src="./img/Banner01.png" class="d-block w-100">
+                        
+                    </div>
+                    
+                    <div data-bs-interval="1000" class="carousel-item ">
+                        <img src="./img/Banner02.png" class="d-block w-100">
+                        
+                    </div>
+                    
+                    
+                    <div data-bs-interval="1000" class="carousel-item ">
+                        <img src="./img/Banner03.png" class="d-block w-100">
+                        
+                    </div>
+                    
+                </div>
+                <a href="#mainSlider" class="carousel-control-prev" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a href="#mainSlider" class="carousel-control-next" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                    
+            </div>
+            <!-- Sobre -->
+            <div id="about-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="main-title">Familia Lambetas</h3>
+                        </div>
+                        <div class="col-md-6">
+                            <img class="img-fluid" src="./img/Gata.png" alt="Mae gata">
+                            <p>Rainha Gata 1ª</p>
+
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class="about-title">Era uma vez uma casa sem gatos...</h3>
+                            <p>Nao entendiamos o motivo de tanta solidão </p>
+                            <p>Ate que chegado momento, foi concedido a honra de hospedar em nossa hulmilde residencia a rainha Gata 1ª. (imagem ao lado)</p>
+                            <p>Para nossa surpresa amamos sua companhia, apesar de suas exigencias e seu leve odio por seres humanos.</p>
+                            <p>Sem muita demora a Rainha começou seu processo de popularizar seu novo reino.</p>
+                            <p>Surgindo assim a Familia Lambetas</p>
+                            <ul id="about-list">
+                                <li><i class="fas fa-check"></i> Bebe   </li>
+                                <li><i class="fas fa-check"></i> Nena    </li>
+                                <li><i class="fas fa-check"></i> Molelu </li>
+                                <li><i class="fas fa-check"></i> Lulu   </li>
+                                <li><i class="fas fa-check"></i> Pololo </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Cards -->
+            <div id="cards-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="main-title">Cards</h3>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <article class="card">
+                                
+                                <img src="./img/card03.png" />
+                                <div class="card-body">
+                                    <h4 class="card-title">Bebe</h4>
+                                    <p class="card-text">
+                                        Femea 1ª Ninhada
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Leia mais</a>
+                                </div>
+                                <footer class="card-footer">
+                                    Postado em <time>04/07/2023 às 19:00:00</time>
+                                </footer>
+                            </article>
+                            
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <article class="card">
+                                
+                                <img src="./img/Card01.png" />
+                                <div class="card-body">
+                                    <h4 class="card-title">Nena </h4>
+                                    <p class="card-text">
+                                        Femea 2ª Ninhada
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Leia mais</a>
+                                </div>
+                                <footer class="card-footer">
+                                    Postado em <time>04/07/2023 às 19:00:00</time>
+                                </footer>
+                            </article>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <article class="card">
+                            
+                                <img src="./img/card02.png" />
+                                <div class="card-body">
+                                    <h4 class="card-title">Molelu</h4>
+                                    <p class="card-text">
+                                        Macho 2ª Ninhada
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Leia mais</a>
+                                </div>
+                                <footer class="card-footer">
+                                    Postado em <time>04/07/2023 às 19:00:00</time>
+                                </footer>
+                            </article>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <article class="card">
+                                
+                                <img src="./img/card4.jpg" />
+                                <div class="card-body">
+                                    <h4 class="card-title">Lulu</h4>
+                                    <p class="card-text">
+                                        Macho 2ª Ninhada
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Leia mais</a>
+                                </div>
+                                <footer class="card-footer">
+                                    Postado em <time>04/07/2023 às 19:00:00</time>
+                                </footer>
+                            </article>
+                            
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <article class="card">
+                                
+                                <img src="https://via.placeholder.com/719x959" />
+                                <div class="card-body">
+                                    <h4 class="card-title">Pololo</h4>
+                                    <p class="card-text">
+                                        Macho 2ª Ninhada
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Leia mais</a>
+                                </div>
+                                <footer class="card-footer">
+                                    Postado em <time>04/07/2023 às 19:00:00</time>
+                                </footer>
+                            </article>
+                            
+                        </div>
+
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        
+    </main>
+    
+
+    
+    <script src="/main.js"></script>
+</body>
+</html>
