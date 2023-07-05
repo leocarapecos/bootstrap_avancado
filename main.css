@@ -19,6 +19,9 @@ p, li{
     font-size: 14px;
 }
 
+img{
+    border: 2px solid #181a24;
+}
 
 /* Barra de navegaçao */
 
@@ -151,7 +154,8 @@ header, .navbar{
 }
 
 #about-area img{
-    border-radius: 100%;
+    border-radius: 5%;
+    border: 5px solid #181a24;
 }
 article{
     margin-top: 20px;
